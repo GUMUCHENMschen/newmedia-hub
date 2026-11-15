@@ -1,0 +1,35 @@
+.member-summary { display: flex; padding: 26px 12px; margin-top: 30px; border-radius: 24px; background: #e8ede6; }
+.member-summary > view { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; border-left: 1px solid #d5ddd4; }
+.member-summary > view:first-child { border-left: 0; }
+.member-summary__value { font-size: 33px; font-weight: 700; }
+.member-summary__label { color: #7c8880; font-size: 19px; }
+.member-form { margin-top: 24px; padding-bottom: 24px; }
+.member-form .primary-button { margin-top: 24px; }
+.member-form__tip { display: block; color: #8a948d; font-size: 21px; line-height: 1.55; margin-top: 18px; }
+.invite-message { padding: 26px; margin-top: 24px; background: #173f35; color: #fff; }
+.invite-message__title { display: block; font-size: 28px; font-weight: 700; }
+.invite-message__content { display: block; color: #d8e6dd; font-size: 23px; line-height: 1.7; margin: 20px 0; }
+.invite-message__note { display: block; color: #a9c2b5; font-size: 20px; line-height: 1.55; margin-bottom: 20px; }
+.invite-message .secondary-button { background: #e6eee8; }
+.member-section { margin-top: 34px; }
+.member-section .section-header { margin-bottom: 18px; }
+.member-list, .pending-list { display: flex; flex-direction: column; gap: 18px; }
+.member-card, .pending-card { padding: 24px; }
+.member-row { display: flex; align-items: center; gap: 18px; }
+.member-copy { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+.member-name-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.member-name { font-size: 28px; font-weight: 700; }
+.member-title { color: #4f6f5e; background: #e6eee7; border-radius: 8px; padding: 4px 10px; font-size: 19px; }
+.member-title--pending { color: #a56245; background: #f8e7dc; }
+.member-meta { color: #849087; font-size: 21px; line-height: 1.5; }
+.member-adjust { color: #315c49; background: #edf2ec; border-radius: 12px; padding: 14px 16px; font-size: 21px; flex-shrink: 0; }
+.member-editor { margin-top: 22px; padding-top: 8px; border-top: 1px solid #edf0eb; }
+.member-editor .primary-button { margin-top: 22px; height: 76px; font-size: 24px; }
+.pending-card__top { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+.pending-card__name { font-size: 28px; font-weight: 700; }
+.pending-card__department { color: #a56245; background: #f8e7dc; padding: 6px 12px; border-radius: 10px; font-size: 20px; }
+.pending-card__meta { display: block; color: #758078; font-size: 22px; line-height: 1.6; }
+.pending-card__inviter { display: block; color: #929a94; font-size: 20px; margin-top: 8px; }
+.pending-card__actions { display: flex; gap: 16px; margin-top: 22px; }
+.pending-card__actions > view { flex: 1; height: 76px; font-size: 24px; }
+.members-page .demo-notice { margin-top: 28px; }

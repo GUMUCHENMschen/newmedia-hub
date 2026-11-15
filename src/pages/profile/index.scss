@@ -1,0 +1,51 @@
+.profile-heading { padding: 12px 2px 30px; display: flex; flex-direction: column; gap: 10px; }
+.profile-heading__eyebrow { color: #7d8881; font-size: 22px; letter-spacing: 2px; }
+.profile-heading__title { font-size: 46px; font-weight: 700; }
+.profile-card { position: relative; overflow: hidden; border-radius: 30px; padding: 30px; background: #173f35; color: #fff; }
+.profile-card__pattern { position: absolute; border: 1px solid rgba(255,255,255,.1); border-radius: 50%; }
+.profile-card__pattern--one { width: 250px; height: 250px; right: -90px; top: -110px; }
+.profile-card__pattern--two { width: 180px; height: 180px; right: -55px; top: -70px; }
+.profile-card__top { display: flex; align-items: center; gap: 20px; position: relative; }
+.profile-card__identity { display: flex; flex-direction: column; gap: 10px; }
+.profile-card__name-row { display: flex; align-items: center; gap: 14px; }
+.profile-card__name { font-size: 36px; font-weight: 600; }
+.profile-card__role { padding: 5px 12px; border-radius: 8px; background: rgba(255,255,255,.13); color: #d8e6dd; font-size: 19px; }
+.profile-card__org { color: #b8ccc1; font-size: 23px; }
+.profile-card__footer { display: flex; margin-top: 30px; padding-top: 26px; border-top: 1px solid rgba(255,255,255,.14); position: relative; }
+.profile-card__footer > view { flex: 1; display: flex; flex-direction: column; gap: 5px; }
+.profile-card__metric { font-size: 35px; font-weight: 600; }
+.profile-card__label { color: #b8ccc1; font-size: 21px; }
+.profile-section { margin-top: 34px; }
+.profile-section .section-header { margin-bottom: 18px; }
+.weekly-card { padding: 26px; }
+.weekly-card__header { display: flex; align-items: center; justify-content: space-between; }
+.weekly-card__title { display: block; font-size: 28px; font-weight: 600; }
+.weekly-card__subtitle { display: block; color: #718078; font-size: 21px; margin-top: 9px; }
+.weekly-card__arrow { width: 52px; height: 52px; border-radius: 50%; background: #eef2ec; display: flex; align-items: center; justify-content: center; color: #416450; font-size: 28px; }
+.weekly-card__metrics { display: flex; margin-top: 26px; padding-top: 22px; border-top: 1px solid #edf0eb; }
+.weekly-card__metrics > view { flex: 1; display: flex; flex-direction: column; gap: 7px; }
+.weekly-card__value { font-size: 31px; font-weight: 700; }
+.weekly-card__label { font-size: 20px; color: #8a948d; }
+.menu-card { padding: 0 24px; }
+.menu-row { display: flex; align-items: center; padding: 23px 0; gap: 18px; }
+.menu-row--border { border-bottom: 1px solid #edf0eb; }
+.menu-row__mark { width: 62px; height: 62px; border-radius: 19px; display: flex; align-items: center; justify-content: center; font-size: 25px; flex-shrink: 0; }
+.menu-row__mark--green { color: #3f6c54; background: #e2ede4; }
+.menu-row__mark--coral { color: #aa5d43; background: #f8e4d9; }
+.menu-row__mark--blue { color: #58728a; background: #e4ecf2; }
+.menu-row__mark--purple { color: #765e81; background: #ede6f0; }
+.menu-row__copy { flex: 1; display: flex; flex-direction: column; gap: 6px; }
+.menu-row__title { font-size: 27px; font-weight: 600; }
+.menu-row__note { color: #8a948d; font-size: 21px; }
+.menu-row__arrow { color: #9ba39d; font-size: 37px; font-weight: 300; }
+.profile-footer { display: flex; flex-direction: column; align-items: center; gap: 8px; color: #9aa19b; font-size: 20px; padding: 42px 0 20px; }
+.duty-card { padding: 24px; color: #66736b; font-size: 23px; line-height: 1.7; }
+.org-card { padding: 26px; }
+.org-card__brands { display: flex; align-items: center; gap: 16px; box-sizing: border-box; margin-bottom: 22px; background: transparent; }
+.org-card__school-logo { display: block; flex: 1; min-width: 0; height: 54px; }
+.org-card__department-logo { display: block; width: 108px; height: 54px; flex-shrink: 0; }
+.org-card__name { display: block; font-size: 28px; font-weight: 700; }
+.org-card__meta { display: block; color: #7f8a83; font-size: 21px; line-height: 1.5; margin: 12px 0 20px; }
+.org-account { display: flex; align-items: center; gap: 12px; color: #53675b; font-size: 22px; padding: 10px 0; }
+.org-account__dot { width: 10px; height: 10px; border-radius: 50%; background: #d98766; flex-shrink: 0; }
+.switch-account { margin-top: 30px; }

@@ -1,0 +1,23 @@
+.school-platform { padding: 28px; margin-top: 30px; }
+.school-platform__top { display: flex; align-items: center; gap: 18px; }
+.school-platform__mark { width: 66px; height: 66px; border-radius: 20px; background: #e3ebf2; color: #536f88; display: flex; align-items: center; justify-content: center; font-size: 28px; flex-shrink: 0; }
+.school-platform__title { display: block; font-size: 28px; font-weight: 700; }
+.school-platform__status { display: block; color: #8a948d; font-size: 21px; margin-top: 7px; }
+.school-platform__note { display: block; color: #758078; font-size: 22px; line-height: 1.65; margin: 24px 0; }
+.school-url-value { min-height: 80px; padding: 22px 20px; border-radius: 16px; background: #f4f6f1; color: #52675b; font-size: 22px; line-height: 1.5; margin-bottom: 20px; word-break: break-all; }
+.school-platform .button-row > view { flex: 1; height: 76px; font-size: 24px; }
+.school-section-title { display: flex; align-items: center; justify-content: space-between; margin: 36px 2px 18px; font-size: 30px; font-weight: 700; }
+.school-section-title text:last-child { color: #7b867e; font-size: 21px; font-weight: 400; }
+.school-save { padding: 24px 0; }
+.course-form { margin-bottom: 22px; }
+.course-list { display: flex; flex-direction: column; gap: 18px; }
+.course-day { padding: 24px; }
+.course-day__heading { display: flex; justify-content: space-between; font-size: 27px; font-weight: 600; padding-bottom: 16px; border-bottom: 1px solid #edf0eb; }
+.course-day__heading text:last-child { color: #8b948e; font-size: 20px; font-weight: 400; }
+.course-row { display: flex; gap: 22px; padding-top: 22px; }
+.course-row__time { width: 92px; flex-shrink: 0; color: #a36850; font-size: 22px; padding-top: 4px; }
+.course-row__copy { display: flex; flex-direction: column; gap: 7px; }
+.course-row__name { font-size: 26px; font-weight: 600; }
+.course-row__meta { color: #87918a; font-size: 20px; }
+.course-day__empty { display: block; color: #98a099; font-size: 21px; padding-top: 20px; }
+.school-page .demo-notice { margin-top: 26px; }

@@ -1,0 +1,47 @@
+.asset-summary { display: flex; padding: 26px 12px; margin-top: 30px; border-radius: 24px; background: #e8ede6; }
+.asset-summary > view { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; border-left: 1px solid #d5ddd4; }
+.asset-summary > view:first-child { border-left: 0; }
+.asset-summary__value { font-size: 33px; font-weight: 700; }
+.asset-summary__label { color: #7c8880; font-size: 19px; }
+.asset-scope-tabs { display: flex; gap: 6px; padding: 6px; margin-top: 26px; border-radius: 18px; background: #e9ede7; }
+.asset-scope-tab { flex: 1; min-width: 0; min-height: 68px; display: flex; align-items: center; justify-content: center; border-radius: 14px; color: #77837b; font-size: 22px; text-align: center; }
+.asset-scope-tab--active { color: #fff; background: #173f35; font-weight: 600; }
+.asset-library-note { display: block; color: #7d8881; font-size: 21px; line-height: 1.55; margin: 18px 4px 0; }
+.search-box { display: flex; align-items: center; gap: 14px; background: #fff; border: 1px solid #e8ece5; border-radius: 20px; padding: 0 22px; height: 82px; margin-top: 26px; }
+.search-box__icon { color: #7f8b83; font-size: 36px; transform: rotate(-15deg); }
+.search-box__input { flex: 1; height: 78px; font-size: 26px; }
+.search-box__clear { color: #909a92; font-size: 33px; padding: 10px; }
+.asset-filters { margin-top: 24px; }
+.asset-list-heading { display: flex; align-items: center; justify-content: space-between; margin: 30px 2px 18px; font-size: 30px; font-weight: 700; }
+.asset-list-heading text:last-child { color: #8b948e; font-size: 21px; font-weight: 400; }
+.asset-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-bottom: 26px; }
+.asset-card { overflow: hidden; min-width: 0; }
+.asset-card__preview { height: 176px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px; }
+.asset-card__preview--coral { background: #eed5c7; color: #975c45; }
+.asset-card__preview--green { background: #d5e2d7; color: #456a53; }
+.asset-card__preview--blue { background: #dae4eb; color: #577186; }
+.asset-card__preview--purple { background: #e4dce8; color: #715d7b; }
+.asset-card__shape { position: absolute; border: 1px solid currentColor; opacity: .18; border-radius: 50%; }
+.asset-card__shape--one { width: 190px; height: 190px; right: -70px; top: -80px; }
+.asset-card__shape--two { width: 110px; height: 110px; left: -38px; bottom: -45px; }
+.asset-card__extension { font-size: 32px; font-weight: 700; letter-spacing: 1px; position: relative; }
+.asset-card__category { font-size: 19px; opacity: .75; position: relative; }
+.asset-card__body { padding: 20px; }
+.asset-card__name { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; min-height: 72px; font-size: 23px; font-weight: 600; line-height: 1.55; word-break: break-all; }
+.asset-card__meta { display: block; color: #8a948d; font-size: 18px; margin-top: 10px; white-space: nowrap; }
+.asset-card__owner { display: flex; align-items: center; gap: 10px; margin-top: 18px; color: #758078; font-size: 20px; }
+.asset-card__owner .avatar { width: 38px; height: 38px; font-size: 17px; }
+.asset-card__action { display: flex; align-items: center; justify-content: space-between; margin-top: 18px; padding: 16px 0 2px; border-top: 1px solid #edf0eb; color: #315c49; font-size: 21px; font-weight: 600; }
+.asset-add-form { margin-top: 24px; padding-bottom: 24px; }
+.asset-add-form .primary-button { margin-top: 24px; }
+.asset-file-picker { min-height: 190px; margin-top: 24px; padding: 28px 20px; border: 2px dashed #cbd6cc; border-radius: 20px; background: #f5f7f2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; }
+.asset-file-picker__mark { width: 54px; height: 54px; border-radius: 50%; background: #e1eae2; color: #315c49; display: flex; align-items: center; justify-content: center; font-size: 32px; }
+.asset-file-picker__title { max-width: 100%; color: #344c40; font-size: 25px; font-weight: 600; line-height: 1.5; word-break: break-all; }
+.asset-file-picker__note { color: #8a948d; font-size: 20px; line-height: 1.5; }
+.asset-form-note { display: block; color: #8a948d; font-size: 20px; line-height: 1.55; text-align: center; margin-top: 18px; }
+
+@media screen and (min-width: 900px) {
+  .asset-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  .asset-add-form { max-width: 720px; margin: 24px auto 0; }
+  .asset-file-picker, .asset-card__action { cursor: pointer; }
+}

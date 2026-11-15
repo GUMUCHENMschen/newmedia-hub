@@ -1,0 +1,48 @@
+.month-row { display: flex; align-items: center; justify-content: space-between; margin: 36px 2px 20px; }
+.month-row__title { font-size: 29px; font-weight: 600; }
+.month-row__count { font-size: 21px; color: #89928c; }
+.week-scroll { margin: 0 -28px; padding: 0 28px; white-space: nowrap; }
+.week-strip { display: flex; gap: 14px; padding-right: 28px; }
+.day-item { width: 92px; height: 142px; flex-shrink: 0; border-radius: 24px; background: #fff; border: 1px solid #e9ece6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #657169; }
+.day-item--active { background: #173f35; border-color: #173f35; color: #fff; box-shadow: 0 10px 22px rgba(23,63,53,.13); }
+.day-item__week { font-size: 21px; }
+.day-item__date { font-size: 35px; font-weight: 600; }
+.day-item__dot { width: 8px; height: 8px; border-radius: 50%; background: transparent; }
+.day-item__dot--visible { background: #d48765; }
+.day-item--active .day-item__dot--visible { background: #f3b291; }
+.calendar-filters { margin-top: 30px; }
+.selected-day-row { display: flex; justify-content: space-between; align-items: center; margin: 32px 2px 18px; }
+.selected-day-row__date { font-size: 31px; font-weight: 700; }
+.selected-day-row__count { color: #8b948e; font-size: 22px; }
+.content-list { display: flex; flex-direction: column; gap: 20px; }
+.content-card { overflow: hidden; display: flex; }
+.content-card__accent { width: 8px; flex-shrink: 0; }
+.content-card__accent--coral { background: #e79a7c; }
+.content-card__accent--green { background: #6b9279; }
+.content-card__accent--blue { background: #8da6ba; }
+.content-card__accent--purple { background: #aa94b5; }
+.content-card__body { padding: 25px 24px; flex: 1; min-width: 0; }
+.content-card__top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.content-card__labels { display: flex; align-items: center; gap: 10px; }
+.content-card__format { color: #849088; font-size: 21px; }
+.content-card__time { font-size: 20px; color: #927d71; white-space: nowrap; }
+.content-card__title { display: block; font-size: 30px; font-weight: 600; line-height: 1.5; margin-top: 20px; }
+.content-card__summary { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; color: #7e8982; font-size: 23px; line-height: 1.6; margin-top: 12px; }
+.content-card__footer { display: flex; align-items: center; justify-content: space-between; margin-top: 24px; padding-top: 20px; border-top: 1px solid #eef0eb; gap: 12px; }
+.content-card__owner { display: flex; align-items: center; gap: 12px; color: #68746c; font-size: 21px; }
+.content-card__channel { color: #7f8b83; font-size: 20px; white-space: nowrap; }
+.pipeline-card { padding: 26px; margin-top: 30px; }
+.pipeline-card__title { font-size: 25px; font-weight: 600; }
+.pipeline-steps { display: flex; margin-top: 24px; }
+.pipeline-step { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 10px; position: relative; }
+.pipeline-step::after { content: ''; position: absolute; height: 2px; background: #e2e7e1; left: calc(50% + 24px); right: calc(-50% + 24px); top: 22px; }
+.pipeline-step:last-child::after { display: none; }
+.pipeline-step__number { width: 46px; height: 46px; border-radius: 50%; background: #e7ede7; color: #5c7566; display: flex; align-items: center; justify-content: center; font-size: 21px; position: relative; z-index: 1; }
+.pipeline-step__number--current { background: #f6dfd3; color: #b66547; }
+.pipeline-step__label { color: #78837c; font-size: 21px; }
+.project-progress { display: flex; align-items: center; gap: 16px; margin-top: 22px; }
+.project-progress text { width: 62px; text-align: right; color: #7e8982; font-size: 20px; }
+.project-departments { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.project-departments text { padding: 5px 11px; border-radius: 8px; background: #f0f2ed; color: #758078; font-size: 18px; }
+.pipeline-card__note { display: block; color: #7e8982; font-size: 20px; line-height: 1.6; margin-top: 24px; }
+.calendar-page .demo-notice { margin-top: 24px; }

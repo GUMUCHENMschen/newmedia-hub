@@ -1,0 +1,27 @@
+.groups-heading { padding: 12px 2px 28px; display: flex; flex-direction: column; gap: 10px; }
+.groups-heading__eyebrow { color: #7d8881; font-size: 22px; letter-spacing: 2px; }
+.groups-heading__title { font-size: 46px; font-weight: 700; }
+.groups-heading__note { color: #7d8881; font-size: 24px; }
+.group-switch { display: flex; padding: 8px; border-radius: 22px; background: #e9ede7; margin-bottom: 24px; }
+.group-switch__item { flex: 1; height: 70px; display: flex; align-items: center; justify-content: center; border-radius: 17px; color: #748078; font-size: 26px; }
+.group-switch__item--active { background: #fff; color: #173f35; font-weight: 600; box-shadow: 0 4px 12px rgba(23,63,53,.06); }
+.department-scroll { margin-bottom: 24px; }
+.chat-card { overflow: hidden; }
+.chat-card__header { padding: 26px; display: flex; align-items: center; justify-content: space-between; }
+.chat-card__title { display: block; font-size: 29px; font-weight: 700; }
+.chat-card__subtitle { display: block; color: #8a948d; font-size: 20px; margin-top: 8px; }
+.chat-card__badge { padding: 7px 13px; border-radius: 99px; background: #eef1eb; color: #748078; font-size: 19px; }
+.chat-rule { margin: 0 24px 20px; padding: 16px 18px; border-radius: 15px; background: #f2f4ef; color: #7a857e; font-size: 20px; line-height: 1.5; }
+.message-list { padding: 10px 24px 24px; display: flex; flex-direction: column; gap: 26px; min-height: 400px; }
+.message-row { display: flex; align-items: flex-start; gap: 14px; }
+.message-row--mine { justify-content: flex-end; }
+.message-row__body { max-width: 79%; }
+.message-row__meta { display: flex; gap: 14px; color: #98a099; font-size: 19px; margin: 0 4px 8px; }
+.message-row--mine .message-row__meta { justify-content: flex-end; }
+.message-bubble { padding: 19px 22px; border-radius: 6px 22px 22px 22px; background: #f0f2ed; color: #34443b; font-size: 24px; line-height: 1.65; }
+.message-row--mine .message-bubble { border-radius: 22px 6px 22px 22px; background: #dfeae1; color: #244b3a; }
+.message-empty { padding: 70px 20px; text-align: center; color: #929a94; font-size: 22px; }
+.chat-composer { display: flex; gap: 14px; padding: 20px; border-top: 1px solid #edf0eb; background: #fafbf8; }
+.chat-composer input { flex: 1; height: 72px; padding: 0 20px; background: #fff; border-radius: 18px; font-size: 23px; }
+.chat-send { width: 96px; height: 72px; border-radius: 18px; background: #173f35; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 24px; }
+.groups-page .demo-notice { margin-top: 24px; }
